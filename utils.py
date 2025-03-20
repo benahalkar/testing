@@ -28,3 +28,25 @@ class NoIdeaInLife():
         """
 
         return self.data * 2
+
+
+
+class SomeIdeaInLife():
+    """Creating another function because
+    SDE life sucks and we code all day
+    """
+
+    def __init__(self):
+        self.data = 50
+        self.bits = 8
+
+    def new_length(self, check):
+        """checks if check is same as bits
+        """
+        return (2 * self.bits) == check
+    
+    def check_val(self):
+        """Returns double of data
+        """
+        return self.data * 2
+
