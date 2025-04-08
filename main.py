@@ -8,3 +8,6 @@ def feature(params):
 
 def now_i(parmas):
     return 6
+
+def new_new_func(x):
+    return x + 2
