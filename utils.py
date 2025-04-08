@@ -50,3 +50,6 @@ class SomeIdeaInLife():
         """
         return self.data * 2
 
+
+def lambda_delta_alpha(m, n, o):
+    return m + n + o
